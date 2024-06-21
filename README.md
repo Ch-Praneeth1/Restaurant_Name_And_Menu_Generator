@@ -1,12 +1,13 @@
-#Restaurant Name and Menu Generator
+# **Restaurant Name and Menu Generator**
 Welcome to the Restaurant Name and Menu Generator! This application leverages the power of the mistralai/Mixtral-8x7B-Instruct-v0.1 model and LangChain to generate unique restaurant names and curated menus based on the selected cuisine. The app is deployed using Streamlit, providing a seamless and interactive user experience.
 
-Features
+**Features**
 Cuisine Selection: Choose from a variety of cuisines to generate a relevant restaurant name and menu.
 AI-Generated Content: Utilizes the advanced mistralai/Mixtral-8x7B-Instruct-v0.1 model for generating creative and contextually appropriate names and menus.
 Interactive Interface: Built with Streamlit for a user-friendly and interactive experience.
 Dynamic Output: Generates a new restaurant name and menu each time you select or change the cuisine.
-Installation
+
+**Installation**
 To run this application locally, follow these steps:
 
 Clone the repository:
