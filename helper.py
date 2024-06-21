@@ -35,6 +35,6 @@ def generateRestaurantNameAndMenu(cuisine):
     response = Sequential_Chain({'cuisine':cuisine})
     return response
 
-if __name__ == "__main__":
-    cuisine = 'indian'
-    print(generateRestaurantNameAndMenu(cuisine))
+# if __name__ == "__main__":
+#     cuisine = 'indian'
+#     print(generateRestaurantNameAndMenu(cuisine))
