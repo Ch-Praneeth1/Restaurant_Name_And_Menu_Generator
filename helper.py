@@ -10,7 +10,7 @@ load_dotenv()
 
 openAi_Api_Key = os.getenv("openai_api_key")
 os.environ['OPENAI_API_KEY'] = openAi_Api_Key
-llm = OpenAI(model_name="gpt-3.5-turbo-0125",temperature=0.7,api_key = "sk-proj-RfQ5e7HGTRrB9CtbpFnAT3BlbkFJxFlFpR1zx2FrPVME27jg")
+llm = OpenAI(model_name="gpt-3.5-turbo-0125",temperature=0.7,api_key = openAi_Api_Key)
 
 def generateRestaurantNameAndMenu(cuisine):
     
