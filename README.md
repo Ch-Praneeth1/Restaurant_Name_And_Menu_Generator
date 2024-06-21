@@ -26,6 +26,10 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
 pip install -r requirements.txt
 
+## **Create a openai or huggingface token**
+
+To access the llm model we need to create an huggingface or openai token and place it in the .env file as "HUGGINGFACEHUB_API_TOKEN" or "openai_api_key" respectively
+
 
 ## **Usage**
 To start the Streamlit app, run the following command:
